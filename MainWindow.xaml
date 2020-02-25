@@ -1,0 +1,24 @@
+﻿<!--Ian McTavish
+    Feb 7, 2019
+    Example program for boolean variables-->
+<Window x:Class="booleanExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:booleanExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Label>Select all options that apply!</Label>
+        <CheckBox x:Name="chkHappy">Are you happy?</CheckBox>
+        <CheckBox x:Name="chkKnowIt">Do you know it?</CheckBox>
+        <Button x:Name="btnProcess" Click="btnProcess_Click">Process</Button>
+        <Line></Line>
+        <TextBlock x:Name="txtOutput" TextWrapping="Wrap" xml:space="preserve">These items will update when you press the buttton</TextBlock>
+        <CheckBox x:Name="chkHappyStatus">Happy Status</CheckBox>
+        <CheckBox x:Name="chkKnowItStatus">Know it status</CheckBox>
+    </StackPanel> 
+</Window>
+
+
